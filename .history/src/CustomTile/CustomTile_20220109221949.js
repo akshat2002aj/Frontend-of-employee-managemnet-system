@@ -1,5 +1,6 @@
 import { Card, Col, Button } from "react-bootstrap";
 import history from "../history";
+import profile from "../components/profile";
 const CustomTile = ({ name, department, image }) => {
   return (
     <Card

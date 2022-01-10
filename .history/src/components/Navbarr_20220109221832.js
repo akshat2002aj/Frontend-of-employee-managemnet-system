@@ -66,16 +66,6 @@ const Navbarr = ({ label, onSearch, onFilter }) => {
                   onClick={() => {
                     history.push({
                       pathname: "/",
-                    });
-                    window.location.reload();
-                  }}
-                >
-                  All
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  onClick={() => {
-                    history.push({
-                      pathname: "/",
                       search: "?department=UI-UX",
                     });
                     window.location.reload();

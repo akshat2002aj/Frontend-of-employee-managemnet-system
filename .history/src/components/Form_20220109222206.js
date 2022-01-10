@@ -1,8 +1,8 @@
 import React from "react";
-import { Table } from "react-bootstrap";
+import { ButtonToolbar, ButtonGroup, Button, Table } from "react-bootstrap";
 import "../styles/Form.css";
 import history from "../history";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Form = () => {
   //   const [data, setData] = useState(

@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import CustomTile from "../CustomTile/CustomTile";
+import CustomAppBar from "../custoomAppBar/CustomAppBar/CustomAppBar";
 import { Row, Spinner } from "react-bootstrap";
 import Navbarr from "./Navbarr";
 import { useLocation } from "react-router-dom";

@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import "../styles/Footerr.css";
+import { Container } from "react-bootstrap";
 
 function Footerr() {
   return (
