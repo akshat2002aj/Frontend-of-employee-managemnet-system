@@ -1,6 +1,16 @@
 import React from "react";
 
-import { Navbar, Container, Nav, Button } from "react-bootstrap";
+import {
+  Navbar,
+  Container,
+  Nav,
+  InputGroup,
+  FormControl,
+  Button,
+  Dropdown,
+  NavDropdown,
+  Form,
+} from "react-bootstrap";
 import history from "../history";
 
 const Header = () => {
